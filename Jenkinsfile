@@ -35,6 +35,3 @@ pipeline{
         }
     }
 }
-/*
-vim: syntax=groovy
-*/
