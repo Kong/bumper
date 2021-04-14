@@ -28,7 +28,7 @@ pipeline{
             }
             steps {
                 script {
-                    sh 'git clone git@github.com:Kong/foundation.git --branch feat/version_bump --depth 1 /tmp/foundation'
+                    sh 'git clone https://$GITHUB_TOKEN@github.com/Kong/foundation.git --branch feat/version_bump --depth 1 /tmp/foundation'
                     sh 'source /tmp/foundation/modules/common.sh && bump_version $WORKSPACE patch'
                 }
             }
