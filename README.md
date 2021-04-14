@@ -1,3 +1,3 @@
-# bumper
+# Bumper
 
-Testing version bumping.
+Testing playground for version bumping.
