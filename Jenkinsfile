@@ -6,7 +6,7 @@ pipeline{
     environment {
         GITHUB_USERNAME = "Jenkins"
         GITHUB_USER_EMAIL = "jenkins@notreal.fake"
-        GITHUB_TOKEN = credentials('PR_GITHUB_TOKEN')
+        GITHUB_TOKEN = credentials('BUMPER_GITHUB_TOKEN')
     }
     stages {
         stage("Setup") {
