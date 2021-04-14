@@ -1,3 +1,3 @@
 # bumper
 
-Testing version bumping
+Testing version bumping.
