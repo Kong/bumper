@@ -11,11 +11,13 @@ pipeline{
         GITHUB_USERNAME = "Jenkins"
         GITHUB_USER_EMAIL = "jenkins@notreal.fake"
         GITHUB_TOKEN = credentials('BUMPER_GITHUB_TOKEN')
+        DOCKERHUB_KONGCLOUD_PULL = credentials('DOCKERHUB_KONGCLOUD_PULL')
     }
     stages {
         stage("Setup") {
             steps {
                 script {
+                    sh 'echo "$DOCKERHUB_KONGCLOUD_PULL_PSW" | docker login -u "$DOCKERHUB_KONGCLOUD_PULL_USR" --password-stdin || true'
                     sh 'git config --global user.name "$GITHUB_USERNAME"'
                     sh 'git config --global user.email "$GITHUB_USER_EMAIL"'
                 }
