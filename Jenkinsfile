@@ -18,6 +18,8 @@ pipeline{
             steps {
                 script {
                     sh 'echo "$DOCKERHUB_KONGCLOUD_PULL_PSW" | docker login -u "$DOCKERHUB_KONGCLOUD_PULL_USR" --password-stdin || true'
+                    //sh 'git config --global user.name "$GITHUB_USERNAME"'
+                    //sh 'git config --global user.email "$GITHUB_USER_EMAIL"'
                 }
             }
         }
@@ -31,13 +33,13 @@ pipeline{
                 }
             }
             steps {
-                sh 'echo hello'
+                script {
+                    // sh 'rm -rf /tmp/foundation && git clone https://$GITHUB_TOKEN@github.com/Kong/foundation.git --branch feat/version_bump --depth 1 /tmp/foundation'
+                    // sh 'source /tmp/foundation/modules/common.sh && bump_version $WORKSPACE true'
+                    sh 'docker image rm -f kongcloud/foundation-ci:latest || true'
+                    sh 'docker run --env CHANGELOG_GITHUB_TOKEN=$GITHUB_TOKEN --env GITHUB_TOKEN --env GITHUB_USERNAME --volume $(pwd):/workspace kongcloud/foundation-ci:latest bash -c ". /foundation/lib.sh && bump_repo \"/workspace\""'
+                }
             }
         }
     }
-}
-
-void bumpVersion() {
-  sh 'docker image rm -f kongcloud/foundation-ci:latest || true'
-  sh 'docker run --env CHANGELOG_GITHUB_TOKEN=$GITHUB_TOKEN --env GITHUB_TOKEN --env GITHUB_USERNAME --volume $(pwd):/workspace kongcloud/foundation-ci:latest bash -c ". /foundation/modules/incl.sh && bump_repo \"/workspace\""'
 }
