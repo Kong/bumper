@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/jeremymv2/bumper/tree/HEAD)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/1.2.0...HEAD)
+
+**Merged pull requests:**
+
+- jenkinsfile comment [\#7](https://github.com/jeremymv2/bumper/pull/7) ([jeremymv2](https://github.com/jeremymv2))
+
 ## [1.2.0](https://github.com/jeremymv2/bumper/tree/1.2.0) (2021-04-14)
 
 [Full Changelog](https://github.com/jeremymv2/bumper/compare/1.1.0...1.2.0)
