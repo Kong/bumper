@@ -31,7 +31,7 @@ pipeline{
                 }
             }
             steps {
-                bumpVersion()
+                sh 'echo hello'
             }
         }
     }
