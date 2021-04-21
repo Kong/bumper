@@ -8,6 +8,8 @@ pipeline{
         timeout(time: 30, unit: 'MINUTES')
     }
     environment {
+        GITHUB_USERNAME = "Jenkins"
+        GITHUB_USER_EMAIL = "jenkins@notreal.fake"
         GITHUB_TOKEN = credentials('BUMPER_GITHUB_TOKEN')
         DOCKERHUB_KONGCLOUD_PULL = credentials('DOCKERHUB_KONGCLOUD_PULL')
     }
