@@ -31,7 +31,7 @@ pipeline{
             steps {
                 script {
                     sh 'docker image rm -f kongcloud/foundation-ci:latest || true'
-                    sh 'docker run --env CHANGELOG_GITHUB_TOKEN=$GITHUB_TOKEN --env GITHUB_TOKEN --env GITHUB_USERNAME --volume $(pwd):/workspace kongcloud/foundation-ci:latest bash -c ". /foundation/incl.sh && bump_repo \"/workspace\""'
+                    sh 'docker run --env CHANGELOG_GITHUB_TOKEN=$GITHUB_TOKEN --env GITHUB_TOKEN --env GITHUB_USERNAME --volume $(pwd):/workspace kongcloud/foundation-ci:latest bash -c ". /foundation/modules/incl.sh && bump_repo \"/workspace\""'
                 }
             }
         }
