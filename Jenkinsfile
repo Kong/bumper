@@ -37,7 +37,7 @@ pipeline{
                     // sh 'rm -rf /tmp/foundation && git clone https://$GITHUB_TOKEN@github.com/Kong/foundation.git --branch feat/version_bump --depth 1 /tmp/foundation'
                     // sh 'source /tmp/foundation/modules/common.sh && bump_version $WORKSPACE true'
                     sh 'docker image rm -f kongcloud/foundation-ci:latest || true'
-                    sh 'docker run --env CHANGELOG_GITHUB_TOKEN=$GITHUB_TOKEN --env GITHUB_TOKEN --env GITHUB_USERNAME --volume $(pwd):/workspace kongcloud/foundation-ci:latest bash -c ". /foundation/incl.sh && bump_repo \"/workspace\""'
+                    sh 'docker run --env CHANGELOG_GITHUB_TOKEN=$GITHUB_TOKEN --env GITHUB_TOKEN --env GITHUB_USERNAME --volume $(pwd):/workspace kongcloud/foundation-ci:latest bash -c ". /foundation/modules/incl.sh && bump_repo \"/workspace\""'
                 }
             }
         }
