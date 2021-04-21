@@ -1,7 +1,7 @@
 pipeline{
     agent {
         node {
-            label 'hybrid'
+            label 'bionic'
         }
     }
     options {
@@ -18,8 +18,8 @@ pipeline{
             steps {
                 script {
                     sh 'echo "$DOCKERHUB_KONGCLOUD_PULL_PSW" | docker login -u "$DOCKERHUB_KONGCLOUD_PULL_USR" --password-stdin || true'
-                    //sh 'git config --global user.name "$GITHUB_USERNAME"'
-                    //sh 'git config --global user.email "$GITHUB_USER_EMAIL"'
+                    sh 'git config --global user.name "$GITHUB_USERNAME"'
+                    sh 'git config --global user.email "$GITHUB_USER_EMAIL"'
                 }
             }
         }
