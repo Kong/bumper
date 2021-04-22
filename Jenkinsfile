@@ -25,7 +25,7 @@ pipeline{
                 not {
                     // to avoid an infinite loop, we only want to bump the version if
                     // the VERSION file wasn't in the last changeset
-                    changeset "VERSION"
+                    changeset "CHANGELOG.md"
                 }
             }
             steps {
