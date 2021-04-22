@@ -1,9 +1,6 @@
 pipeline{
-    agent {
-        node {
-            label 'bionic'
-        }
-    }
+    agent any
+
     options {
         timeout(time: 30, unit: 'MINUTES')
     }
