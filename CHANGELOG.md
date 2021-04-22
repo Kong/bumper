@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.2.0](https://github.com/jeremymv2/bumper/tree/2.2.0) (2021-04-22)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/2.1.0...2.2.0)
+
+**Merged pull requests:**
+
+- playground [\#15](https://github.com/jeremymv2/bumper/pull/15) ([jeremymv2](https://github.com/jeremymv2))
+
 ## [2.1.0](https://github.com/jeremymv2/bumper/tree/2.1.0) (2021-04-22)
 
 [Full Changelog](https://github.com/jeremymv2/bumper/compare/2.0.2...2.1.0)
