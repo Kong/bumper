@@ -1,7 +1,7 @@
 pipeline{
     agent {
         node {
-            label 'backup'
+            label 'bionic'
         }
     }
     options {
