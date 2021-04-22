@@ -1,6 +1,9 @@
 pipeline{
-    agent any
-
+    agent {
+        node {
+            label 'hybrid'
+        }
+    }
     options {
         timeout(time: 30, unit: 'MINUTES')
     }
