@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.3.1](https://github.com/jeremymv2/bumper/tree/2.3.1) (2021-04-28)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/2.3.0...2.3.1)
+
+**Merged pull requests:**
+
+- update README.md [\#19](https://github.com/jeremymv2/bumper/pull/19) ([jeremymv2](https://github.com/jeremymv2))
+
 ## [2.3.0](https://github.com/jeremymv2/bumper/tree/2.3.0) (2021-04-27)
 
 [Full Changelog](https://github.com/jeremymv2/bumper/compare/2.2.2...2.3.0)
