@@ -1,5 +1,5 @@
 MyHandler.PRIORITY = 1006
-MyHandler.VERSION = "3.0.0"
+MyHandler.VERSION = "3.1.0.0"
 
 
 return MyHandler
