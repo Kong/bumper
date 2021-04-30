@@ -24,8 +24,9 @@ pipeline{
                 branch "main"
                 not {
                     // to avoid an infinite loop, we only want to bump the version if
-                    // the VERSION file wasn't in the last changeset
+                    // the associated version files were not in the last changeset
                     changeset "**/*.rockspec"
+                    changeset "CHANGELOG.md"
                 }
             }
             steps {
