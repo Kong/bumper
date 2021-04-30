@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.1.2](https://github.com/jeremymv2/bumper/tree/3.1.2) (2021-04-30)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/3.1.1...3.1.2)
+
 ## [3.1.1](https://github.com/jeremymv2/bumper/tree/3.1.1) (2021-04-30)
 
 [Full Changelog](https://github.com/jeremymv2/bumper/compare/3.1.0.0...3.1.1)
