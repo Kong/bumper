@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.2.1](https://github.com/jeremymv2/bumper/tree/3.2.1) (2021-04-30)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/3.2.0...3.2.1)
+
+**Merged pull requests:**
+
+- fixing up Jenskinsfile synxtax [\#28](https://github.com/jeremymv2/bumper/pull/28) ([jeremymv2](https://github.com/jeremymv2))
+- more changesets in Jenkinsfile [\#27](https://github.com/jeremymv2/bumper/pull/27) ([jeremymv2](https://github.com/jeremymv2))
+
 ## [3.2.0](https://github.com/jeremymv2/bumper/tree/3.2.0) (2021-04-30)
 
 [Full Changelog](https://github.com/jeremymv2/bumper/compare/3.1.3...3.2.0)
