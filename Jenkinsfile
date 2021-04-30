@@ -23,10 +23,12 @@ pipeline{
             when {
                 branch "main"
                 not {
-                    // to avoid an infinite loop, we only want to bump the version if
-                    // the associated version files were not in the last changeset
-                    changeset "**/*.rockspec"
-                    changeset "CHANGELOG.md"
+                    anyOf {
+                        // to avoid an infinite loop, we only want to bump the version if
+                        // the associated version files were not in the last changeset
+                        changeset "**/*.rockspec"
+                        changeset "CHANGELOG.md"
+                    }
                 }
             }
             steps {
