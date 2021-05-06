@@ -1,3 +1,3 @@
 # Version Bumper Tests
 
-Test playground for Plugin version bumping and changelog
+Test playground for Plugin version bumping and changelog.
