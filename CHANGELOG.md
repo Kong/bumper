@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.4.2](https://github.com/jeremymv2/bumper/tree/3.4.2) (2021-05-06)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/3.4.1...3.4.2)
+
+**Merged pull requests:**
+
+- chore\(readme\) update the readme yet again [\#32](https://github.com/jeremymv2/bumper/pull/32) ([jeremymv2](https://github.com/jeremymv2))
+
 ## [3.4.1](https://github.com/jeremymv2/bumper/tree/3.4.1) (2021-05-06)
 
 [Full Changelog](https://github.com/jeremymv2/bumper/compare/3.4.0...3.4.1)
