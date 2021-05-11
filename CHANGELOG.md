@@ -4,7 +4,7 @@
 
 [Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.12...3.5.13)
 
-**Merged pull requests:**
+**Merged pull requests:
 
 - fixup [\#39](https://github.com/jeremymv2/bumper/pull/39) ([jeremymv2](https://github.com/jeremymv2))
 
