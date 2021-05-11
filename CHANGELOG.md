@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.5.14](https://github.com/jeremymv2/bumper/tree/3.5.14) (2021-05-11)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.13...3.5.14)
+
+**Merged pull requests:**
+
+- feat\(bar\) adding the bar [\#42](https://github.com/jeremymv2/bumper/pull/42) ([jeremymv2](https://github.com/jeremymv2))
+- feat\(foobar\) whoot [\#41](https://github.com/jeremymv2/bumper/pull/41) ([jeremymv2](https://github.com/jeremymv2))
+- do not trigger [\#40](https://github.com/jeremymv2/bumper/pull/40) ([jeremymv2](https://github.com/jeremymv2))
+
 ## [3.5.13](https://github.com/jeremymv2/bumper/tree/3.5.13) (2021-05-11)
 
 [Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.12...3.5.13)
