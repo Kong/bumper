@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.5.18](https://github.com/jeremymv2/bumper/tree/3.5.18) (2021-05-11)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.17...3.5.18)
+
 ## [3.5.17](https://github.com/jeremymv2/bumper/tree/3.5.17) (2021-05-11)
 
 [Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.16...3.5.17)
