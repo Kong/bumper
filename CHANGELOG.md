@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.5.13](https://github.com/jeremymv2/bumper/tree/3.5.13) (2021-05-11)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.12...3.5.13)
+
+**Merged pull requests:**
+
+- fixup [\#39](https://github.com/jeremymv2/bumper/pull/39) ([jeremymv2](https://github.com/jeremymv2))
+
+## [3.5.12](https://github.com/jeremymv2/bumper/tree/3.5.12) (2021-05-11)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.11...3.5.12)
+
 ## [3.5.11](https://github.com/jeremymv2/bumper/tree/3.5.11) (2021-05-11)
 
 [Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.10...3.5.11)
