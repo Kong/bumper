@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.5.15](https://github.com/jeremymv2/bumper/tree/3.5.15) (2021-05-11)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.14...3.5.15)
+
+**Merged pull requests:**
+
+- fix\(handler\) spaces [\#44](https://github.com/jeremymv2/bumper/pull/44) ([jeremymv2](https://github.com/jeremymv2))
+- chore\(refactor\) stuff [\#43](https://github.com/jeremymv2/bumper/pull/43) ([jeremymv2](https://github.com/jeremymv2))
+
 ## [3.5.14](https://github.com/jeremymv2/bumper/tree/3.5.14) (2021-05-11)
 
 [Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.13...3.5.14)
