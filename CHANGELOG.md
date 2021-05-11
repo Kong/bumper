@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.5.11](https://github.com/jeremymv2/bumper/tree/3.5.11) (2021-05-11)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.10...3.5.11)
+
+**Merged pull requests:**
+
+- feat\(foo\) add foo2 [\#38](https://github.com/jeremymv2/bumper/pull/38) ([jeremymv2](https://github.com/jeremymv2))
+
+## [3.5.10](https://github.com/jeremymv2/bumper/tree/3.5.10) (2021-05-11)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.9...3.5.10)
+
 ## [3.5.9](https://github.com/jeremymv2/bumper/tree/3.5.9) (2021-05-11)
 
 [Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.8...3.5.9)
