@@ -1,9 +1,9 @@
 package = "my-bumper"
-version = "3.5.5-0"
+version = "3.5.6-0"
 
 source = {
   url = "https://github.com/jeremymv2/bumper",
-  tag = "3.5.5"
+  tag = "3.5.6"
 }
 
 supported_platforms = {"linux", "macosx"}
