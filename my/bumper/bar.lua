@@ -1,1 +1,1 @@
-bar = "foo"
+local bar = "foo"
