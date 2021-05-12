@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.0.0](https://github.com/jeremymv2/bumper/tree/4.0.0) (2021-05-12)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.19...4.0.0)
+
+**Merged pull requests:**
+
+- chore\(comments\) added [\#45](https://github.com/jeremymv2/bumper/pull/45) ([jeremymv2](https://github.com/jeremymv2))
+
+## [3.5.19](https://github.com/jeremymv2/bumper/tree/3.5.19) (2021-05-11)
+
+[Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.18...3.5.19)
+
 ## [3.5.18](https://github.com/jeremymv2/bumper/tree/3.5.18) (2021-05-11)
 
 [Full Changelog](https://github.com/jeremymv2/bumper/compare/3.5.17...3.5.18)
