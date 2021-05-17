@@ -1,5 +1,17 @@
 # Changelog
 
+## [13.0.1](https://github.com/Kong/bumper/tree/13.0.1) (2021-05-17)
+
+[Full Changelog](https://github.com/Kong/bumper/compare/13.0.0...13.0.1)
+
+**Merged pull requests:**
+
+- chore\(comments\) added [\#46](https://github.com/Kong/bumper/pull/46) ([jeremymv2](https://github.com/jeremymv2))
+
+## [13.0.0](https://github.com/Kong/bumper/tree/13.0.0) (2021-05-13)
+
+[Full Changelog](https://github.com/Kong/bumper/compare/12.0.0...13.0.0)
+
 ## [12.0.0](https://github.com/jeremymv2/bumper/tree/12.0.0) (2021-05-13)
 
 [Full Changelog](https://github.com/jeremymv2/bumper/compare/11.0.0...12.0.0)
