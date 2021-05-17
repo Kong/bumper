@@ -1,1 +1,2 @@
+-- comments
 local foo = "bar"
